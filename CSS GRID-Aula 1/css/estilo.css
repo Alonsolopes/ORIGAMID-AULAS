@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+h1{
+    text-align:center;
+    margin: 30px;
+    color:lightgreen;
+    font-size: 3em;
+}
+
+h2{
+    margin-bottom:10px;
+}
+
+.item{
+    background-color:#ddd;
+    padding:30px;
+    display: inline-block;
+    border-radius:5px;
+}
+
+.preco{
+    color: grey;
+}
+
+.item a{
+    background-color: blueviolet;
+    padding: 10px 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    color: white;
+}
+
+.item p{
+    margin: 10px 0px;
+}
+
+.coluna{
+    display: grid;
+    grid-template-columns:1fr 2fr;
+    gap:20px;
+}
