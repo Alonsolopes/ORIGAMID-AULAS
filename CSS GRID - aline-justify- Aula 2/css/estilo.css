@@ -39,7 +39,7 @@ h2{
     color: grey;
 }
 
-.coluna{
+    .coluna{
     display: grid;
     grid-template-columns:auto auto;
     height: 800px;
